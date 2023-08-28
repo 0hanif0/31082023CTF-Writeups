@@ -102,6 +102,118 @@
 
 ## NETWORK - Johan (Mudah)
 
-- open file using wireshark then export the file `File -> Export Objects -> HTTP`, 
+- open file using wireshark then export the file `File -> Export Objects -> HTTP`
 
 ![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/d2591066-2305-4ac3-a07c-276b701826aa)
+
+- open file `newuser.php` then decode all the binary using [ascii code](https://www.dcode.fr/ascii-code) you will get a link
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/c5abdea9-1ce8-42bc-8812-82679424c14a)
+
+- open the link, find the flag
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/675401cf-dd42-4862-b4b3-69a895ae507f)
+
+## NETWORK - Lagi-Lagi Johan (Mudah)
+
+- open file using wireshark then export the file `File -> Export Objects -> HTTP`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/5bc6ceaf-d10c-44a1-a146-2de447689a30)
+
+- open file `newuser(1).php`, I think this is the flag, sorry dont remember
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/6342e63c-3b02-4595-96cb-3bbcf15a48d4)
+
+## NETWORK - Jalan Jalan Di Kuala Lumpur (Mudah)
+
+- open file using wireshark then export the file `File -> Export Objects -> HTTP`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/5f1daa2f-00d6-4cf0-abef-9a740b9b910b)
+
+- open file `.----%20-----.pdf` you will get part of flag
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/ae9f4a3b-8e91-474d-ade3-1744ad12fbb1)
+
+- open file `flag.txt` you will get another part of flag
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/3053799f-615f-460a-a1ca-0ff5881d5683)
+
+- open file `galeri.png` you will get another part of flag
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/9a2bd010-d2c5-4d1c-9b62-03787d42b726)
+
+## NETWORK - Perpaduan (Mudah)
+
+- combine the the given text at the top of website to become a link `app.mediafire.com/stc0yhefz10a6`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/30e876f5-f6d5-495e-89f5-53c0f3b5f900)
+
+- download file `3108.txt`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/9eaba9b5-c554-44c2-89ff-5b5db8b467fe)
+
+- open and find the flag, there are many fake flag you need to find the right flag at line `14350600`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/9f459ed8-6cc4-49e9-aed6-7ea8258814de)
+
+## MISC - Mencari Rahsia Si Dia (Mudah)
+
+- decode using [spam mimic](https://spammimic.com/decode.shtml)
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/0084a147-dfee-4e90-b2da-d9c866b664b2)
+
+## MISC - Pesan Tentang Bicara (Sederhana)
+
+- extract the morse code and decode using [morse code translator](https://www.dcode.fr/morse-code)
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/e5c79b93-7222-443f-90a4-9c3b644243a3)
+
+- decode using [vigenere cipher](https://www.dcode.fr/vigenere-cipher) with key `KEY`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/cd4eac40-3cbc-4da2-b2a8-4c1e2b1cea74)
+
+## MISC - 3108 CTF Town (Sederhana)
+
+- open the game using `Visual Boy Advance - Game Boy Advance (GBA) Emulator` or another familiar software, and speedrun game to this part
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/47a513f9-c1e2-4012-b081-eaad4c090e50)
+
+## MISC - Nasi Lemak 1 Juta (Mudah)
+
+- from the hint you need to find the `bahan rahsia`. so i maximize the software and found the secret
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/bcc3a5c7-7f5a-44ef-9d2f-add44d1bb6b7)
+
+- using cheat engine to modify the value
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/f7150f0d-8c03-4701-bcb4-670ed7d3ec49)
+
+- click `bahan rahsia` and popout
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/ca1f7c8c-b5fd-48b0-a11f-c65c0f11b0d1)
+
+## FORENSICS - Negeri-Negeri Di Malaysia (Mudah)
+
+- view strings
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/b61c4d1a-3c0f-44c3-994f-02ab3ec23730)
+
+- decode using [cyberchef](https://cyberchef.org/#recipe=Magic(3,false,false,'')&input=TXpFd09Ic3hSRE5PVkRGVU1WOU5ORXcwV1ZNeE5IMD0)
+
+## FORENSICS - Hatta (Sederhana)
+
+- view strings
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/00d53108-81ff-4108-9a3a-c4174d8a0117)
+
+- decode using [special tool](https://cyberchef.org/#recipe=Find_/_Replace(%7B'option':'Simple%20string','string':'.'%7D,'0',true,false,true,false)Find_/_Replace(%7B'option':'Regex','string':'/'%7D,'1',true,false,true,false)From_Binary('None',8)&input=Li4vLy4uLy8uLi8vLi4uLy4uLy8uLi4uLi4vLy8uLi4uLy8vLy4vLy4vLy4vLi8vLi4vLy4uLy8uLy8uLi4vLy4vLy4vLi4vLi8vLi8vLi4uLy4vLy8vLy4vLy4uLi8vLi8vLi8uLi8uLy8uLy8uLi4vLy4vLi4vLi8uLy8vLy8uLy8vLi4uLi4uLy8uLy4uLi8vLi4vLi4uLy8uLy4uLy4vLy8vLy4v) , actually you need to replace `.` into `0` and `/` into `1`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/d47c7c73-d8cd-45b1-a7e6-9dd4a6426858)
+
+## OSINT - Pertemuan Kapista : Babak I (Mudah)
+
+- open the given link [youtube](https://www.youtube.com/watch?v=ydDS01hfqQk)
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/d634c926-2791-4a76-923c-5997f7cd6809)
+
+- open X / twiter [madah4arjuna](https://twitter.com/madah4arjuna)
