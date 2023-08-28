@@ -200,6 +200,8 @@
 
 - decode using [cyberchef](https://cyberchef.org/#recipe=Magic(3,false,false,'')&input=TXpFd09Ic3hSRE5PVkRGVU1WOU5ORXcwV1ZNeE5IMD0)
 
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/2b9efb6a-6897-408f-95be-3fd6591c80f9)
+
 ## FORENSICS - Hatta (Sederhana)
 
 - view strings
