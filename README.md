@@ -3,6 +3,38 @@
   - This is not an official writeups for 3108CTF. I just made it for fun.
   - This is just simple solution how I solve some of the ctf challenge.
   - Sorry for my bad writing for explaining the challenge.
+ 
+## Table of contents
+- [WEB - Lemah (Mudah)](#web---lemah-mudah)
+- [WEB - Wantujus (Mudah)](#web---wantujus-mudah)
+- [WEB - Wantusom (Sederhana)]
+- [WEB - Pantun Pantul (Sederhana)]
+- [REVERSE ENGINEERING - Sarawak (Mudah)]
+- [STEGA - Tugu Negara (Sederhana)]
+- [STEGA - Hari Keramat (Mudah) - Reupload]
+- [STEGA - Uncover (Sederhana)]
+- [CRYPTOGRAPHY - Nasihat (Mudah)]
+- [CRYPTOGRAPHY - Selamat Malam (Sederhana)]
+- [CRYPTOGRAPHY - Keretapi Tanah Melayu 🚂 (Mudah)]
+- [CRYPTOGRAPHY - Jerebu (Sederhana)]
+- [CRYPTOGRAPHY - 1957bit (Sederhana)]
+- [NETWORK - Johan (Mudah)]
+- [NETWORK - Lagi-Lagi Johan (Mudah)]
+- [NETWORK - Jalan Jalan Di Kuala Lumpur (Mudah)]
+- [NETWORK - Perpaduan (Mudah)]
+- [MISC - Mencari Rahsia Si Dia (Mudah)]
+- [MISC - Pesan Tentang Bicara (Sederhana)]
+- [MISC - 3108 CTF Town (Sederhana)]
+- [MISC - Nasi Lemak 1 Juta (Mudah)]
+- [FORENSICS - Negeri-Negeri Di Malaysia (Mudah)]
+- [FORENSICS - Hatta (Sederhana)]
+- [OSINT - Pertemuan Kapista : Babak I (Mudah)]
+- [OSINT - Hero Melayu (Mudah)]
+- [OSINT - Kisah Lama (Mudah)]
+- [OSINT - Pertemuan Kapista : Babak II (Mudah)]
+- [OSINT - Mesej Dalam Botol (Sederhana)]
+- [OSINT - Pertemuan Kapista : Finale (Mudah)]
+- [OSINT - Saya Di Mana (Mudah)]
 
 ## WEB - Lemah (Mudah)
 
