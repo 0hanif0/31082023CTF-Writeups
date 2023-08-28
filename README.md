@@ -244,7 +244,7 @@
 - you need to decode the strings from the x / twitter 
 - before decode you need to combine the strings
 
-![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/802a7e92-26c0-40c1-b237-610c631e8f2e)
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/8ecb9130-832a-4bcd-89fd-86d9b786878c)
 
 - open telegram and find `lanang kusrani`
 
