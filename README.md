@@ -42,6 +42,66 @@
 
 ![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/55555799-bc78-4c73-be6f-17178a2dab87)
 
-## STEGA - Jalur Gemilang (Mudah)
+## STEGA - Hari Keramat (Mudah) - Reupload
 
-- 
+- use [StegOnline](https://stegonline.georgeom.net/upload), click LSB Half, to see the hidden text `angKaRahs1a`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/a74e26b0-5e22-4bbb-ad3f-1fc8508edb84)
+
+- use [Steg Decoder](https://futureboy.us/stegano/decinput.html) with password `angKaRahs1a` to see embedded file with the hidden text
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/bc0a34d0-13dd-4c0e-8386-c3c53cd8396a)
+
+- decode using [ROT 47](https://www.dcode.fr/rot-47-cipher)
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/f72f8bee-8728-491d-bd28-fa237e24506b)
+
+## STEGA - Uncover (Sederhana)
+
+- decode using [Hexahue](https://www.dcode.fr/hexahue-cipher)
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/6ed4fcde-7e67-4786-b1b7-d3171a2f51b1)
+
+## CRYPTOGRAPHY - Nasihat (Mudah)
+
+- view strings `nasihat.py` to see the password `1ng4t-rukun-n3g4ra`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/178304b4-9682-4953-be1e-22a510c5b8ab)
+
+- run the python with flag.txt.enc
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/1fd9add9-cd9a-49f1-bb66-deee2d6513c0)
+
+## CRYPTOGRAPHY - Selamat Malam (Sederhana)
+
+- decode using [atbash cipher](https://www.dcode.fr/atbash-cipher)
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/1829ba5c-fbaf-47d7-a8fb-134656ba912e)
+
+- they are weird Capital Letter in the text, just separate the weird letters
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/2fa030ff-0d00-4597-8df7-4fb7c37a69dd)
+
+## CRYPTOGRAPHY - Keretapi Tanah Melayu 🚂 (Mudah)
+
+- decode using [Rail fence cipher](https://www.boxentriq.com/code-breaking/rail-fence-cipher)
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/7b8d960a-2bc0-41b3-b9cb-345a65c556c6)
+
+## CRYPTOGRAPHY - Jerebu (Sederhana)
+
+- just decode some of obviously part only using [Music Sheet Cipher](https://www.dcode.fr/music-sheet-cipher)
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/c4eea7bf-b0b2-4f1f-920f-53990eb82cdd)
+
+## CRYPTOGRAPHY - 1957bit (Sederhana)
+
+- decode using [XOR Cipher](https://www.dcode.fr/xor-cipher) with key `1957`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/91dfdf6e-a76d-4617-9b6a-b33307a27b4d)
+
+## NETWORK - Johan (Mudah)
+
+- open file using wireshark then export the file `File -> Export Objects -> HTTP`, 
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/d2591066-2305-4ac3-a07c-276b701826aa)
