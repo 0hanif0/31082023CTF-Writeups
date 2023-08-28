@@ -265,7 +265,7 @@
 
 ![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/f2214159-d685-4ea8-8317-9fc2e780bf88)
 
-- open the file and decode part of hidden strings `b`_gLsb(`Oz`#c}cN`
+- open the file and decode part of hidden strings == b\`_gLsb(\`Oz\`#c}cN
 
 ![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/66015b45-1063-42c3-bc44-1639bf51d6ed)
 
