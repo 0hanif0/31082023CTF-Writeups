@@ -217,3 +217,92 @@
 ![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/d634c926-2791-4a76-923c-5997f7cd6809)
 
 - open X / twiter [madah4arjuna](https://twitter.com/madah4arjuna)
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/ce87c079-1de8-4854-8693-52c7b33c9ef4)
+
+## OSINT - Hero Melayu (Mudah)
+
+- open tiktok [@pempengaruhsiber](https://www.tiktok.com/@pempengaruhsiber)
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/80c1ad38-a4f6-4399-9694-171c22db7d38)
+
+- open this video and boom
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/5e832fc6-5f08-4a03-9958-13664b57fee5)
+
+## OSINT - Kisah Lama (Mudah)
+
+- using [wayback machine](https://web.archive.org/) to find `kisah silam lama yang tidak dilupai`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/d583ac00-a5e0-4574-96e8-be9d17fc2f16)
+
+## OSINT - Pertemuan Kapista : Babak II (Mudah)
+
+- this chal is related to Babak I
+- you need to decode the strings from the x / twitter 
+- before decode you need to combine the strings
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/6f2bc331-e92f-4872-80fe-3f28f80ad1f9)
+
+- open telegram and find `lanang kusrani`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/d84062fd-ac33-448a-a0a4-3aa7d6ffcefe)
+
+## OSINT - Mesej Dalam Botol (Sederhana)
+
+- based on clue, you need to find the name and year, because you need it to unlock file zip/rar file
+- using google images you found the name `Bahtera Pertiwi`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/86f769b0-d604-427f-a3d2-1975a39d22d4)
+
+- using yandex images, just try my luck and get the year `2014`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/e5d5a2aa-596b-4792-b84c-ecafc1eda385)
+
+- so the password is `BAHTERAPERTIWI_2014` extract the file
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/f2214159-d685-4ea8-8317-9fc2e780bf88)
+
+- open the file and decode part of hidden strings `b`_gLsb(`Oz`#c}cN`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/66015b45-1063-42c3-bc44-1639bf51d6ed)
+
+- decode using [ROT 47](https://www.dcode.fr/rot-47-cipher)
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/ae0073b2-d3e9-4d20-a1ec-771daf1eccb1)
+
+## OSINT - Pertemuan Kapista : Finale (Mudah)
+
+- this chal is related to Babak II
+- you need to to open instagram from the telegram
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/06be6039-3dbe-4d23-a9a5-a28df4aec393)
+
+- click on this picture you will get hidden strings
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/ddd1652c-a565-4f1c-b33d-ccc6b06c6e99)
+
+- extract the string and decode using [base 64](https://www.base64decode.org)
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/cc4d0d5e-581b-428e-91ae-64ace3567dfe)
+
+- open the link and you need to find the password
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/56e6492f-c6d1-4421-a0f2-cd8d850369f6)
+
+- go back to instagram to find the clue
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/0fa74282-a779-491a-b7fd-3f2d2a2bd3cf)
+
+- so the password is `31082023`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/dbd4bff5-0a08-4b5d-94da-26076f0d024a)
+
+## OSINT - Saya Di Mana (Mudah)
+
+- this chal is so stressful because you need to know and find accurately the place
+- I know this place somewhere in Melaka because I search the hotel `The Explorer`
+- so the true place is `Dataran Pahlawan Melaka` and find the newest review from that place
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/b08434e6-6819-4359-bdd4-72be26a4b34a)
+
