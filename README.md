@@ -9,8 +9,12 @@
 - [WEB - Wantujus (Mudah)](#web---wantujus-mudah)
 - [WEB - Wantusom (Sederhana)](#web---wantusom-sederhana)
 - [WEB - Pantun Pantul (Sederhana)](#web---pantun-pantul-sederhana)
+- [WEB - Warganegara (Sederhana)](#web---warganegara-sederhana)
+- [WEB - Bendera (Mudah)](#web---bendera-mudah)
 - [REVERSE ENGINEERING - Sarawak (Mudah)](#reverse-engineering---sarawak-mudah)
 - [STEGA - Tugu Negara (Sederhana)](#stega---tugu-negara-sederhana)
+- [STEGA - Jalur Gemilang (Mudah)](#stega--jalur-gemilang-mudah)
+- [STEGA - Bangsal 1 (Sederhana)](#stega--bangsal-1-sederhana)
 - [STEGA - Hari Keramat (Mudah) - Reupload](#stega---hari-keramat-mudah---reupload)
 - [STEGA - Uncover (Sederhana)](#stega---uncover-sederhana)
 - [CRYPTOGRAPHY - Nasihat (Mudah)](#cryptography---nasihat-mudah)
@@ -50,9 +54,10 @@
 
 ## WEB - Wantusom (Sederhana)
 
-- keep spamming until you win 9 rounds (this is unbeatable to win 10 rounds), run the function that return a random choice, this means that the computer will no longer be able to always win on the 9th win, check cookie, decode using [cyberchef](https://cyberchef.org/#recipe=Magic(3,false,false,'')&input=TXpFd09IdGlhWE5yZFhSZmRHbG5aWEo5)
-
+- keep spamming until you win 9 rounds (this is unbeatable to win 10 rounds), run the function that return a random choice, this means that the computer will no longer be able to always win on the 9th win
 ![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/c74a4cc8-c4d9-41eb-8b56-c058d114a71a)
+
+- check cookie, decode using [cyberchef](https://cyberchef.org/#recipe=Magic(3,false,false,'')&input=TXpFd09IdGlhWE5yZFhSZmRHbG5aWEo5)
 
 ![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/e0ad2188-fe2b-411c-8c58-b40c30961645)
 
@@ -61,6 +66,18 @@
 - just enter any value and submit, run the function `bendera()`
 
 ![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/7d3cf884-7f96-4860-9f4b-3d9c6b11b920)
+
+## WEB - Warganegara (Sederhana)
+
+- using curl in terminal `curl -H "x-country-code: MY" https://warganegara.bahterasiber.my`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/c777015a-5a0b-4c10-b7ad-e57a3e061e9f)
+
+## WEB - Bendera (Mudah)
+
+- edit request `bendera[]=bendera`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/b0065e58-b04f-4777-892b-27efda6da39a)
 
 ## REVERSE ENGINEERING - Sarawak (Mudah)
 
@@ -73,6 +90,30 @@
 - view strings
 
 ![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/55555799-bc78-4c73-be6f-17178a2dab87)
+
+## STEGA - Jalur Gemilang (Mudah)
+
+- using HxD, you need to repair some header
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/d5f32b10-3789-4fc7-ae7a-d19f20ea4f3d)
+
+- based on other example, the header must be like this
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/c1bbdcbf-8c8e-41ed-8996-67eb35f174ed)
+
+- open the edited header
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/fa59b998-92d2-4d76-98b4-84390815de8c)
+
+## STEGA - Bangsal 1 (Sederhana)
+
+- decode using [Steganographic Decoder](https://futureboy.us/stegano/decinput.html) without password you will get the second picture
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/50d4dc1e-e1a4-4d70-b277-c2bbfd985b1b)
+
+- decode again using [Steganographic Decoder](https://futureboy.us/stegano/decinput.html) but this time using password `kemerdekaan`
+
+![image](https://github.com/0hanif0/31082023CTF-Writeups/assets/23289982/eb60ed7e-f302-41da-8c97-cf297ea9bc80)
 
 ## STEGA - Hari Keramat (Mudah) - Reupload
 
